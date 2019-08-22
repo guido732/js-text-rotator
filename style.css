@@ -8,12 +8,18 @@
 
 body {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	background: #000;
+	text-align: center;
 }
-
+h3 {
+	color: #fff;
+	font-size: 2rem;
+	line-height: 2rem;
+}
 h1 {
 	color: #fff;
 	font-size: 10rem;
